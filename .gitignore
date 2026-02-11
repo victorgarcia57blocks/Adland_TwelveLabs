@@ -1,0 +1,12 @@
+# Ignore Data Files (Security & Size)
+*.csv
+data/*
+!data/.gitkeep
+
+# Ignore System Files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore Environment Variables / Secrets
+.env
